@@ -1,56 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gelo's Store</title>
-<link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelo's GPU Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-
-<header>
-  <h1>Welcome to Gelo's Store</h1>
-  <h2>Where you can buy GPU's</h2>
-</header>
-
-<nav>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#products">Products</a></li>
-    <li><a href="#about">About Us</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<main>
-  <section id="home">
-    <h2>Welcome to Our Store</h2>
-    <p>We offer a wide range of products for your needs.</p>
-  </section>
-
-  <section id="products">
-    <h2>Products</h2>
-    <div class="product">
-      <img src="product1.jpg" alt="Product 1">
-      <h3>Product 1</h3>
-      <p>Description of Product 1</p>
-      <p>$19.99</p>
-      <button>Add to Cart</button>
+    <header>
+        <h1>Gelo's GPU Store</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to Gelo's GPU Store!</h2>
+        <div class="product">
+            <h3>NVIDIA GeForce RTX 3080</h3>
+            <p>Price: $799</p>
+            <p>The NVIDIA GeForce RTX 3080 delivers the ultra performance that gamers crave, powered by Ampere—NVIDIA's 2nd gen RTX architecture.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>AMD Radeon RX 6800 XT</h3>
+            <p>Price: $649</p>
+            <p>The AMD Radeon RX 6800 XT graphics card, powered by RDNA 2 architecture, featuring 72 powerful enhanced Compute Units, 128 MB of all new AMD Infinity Cache and 16GB of dedicated GDDR6 memory.</p>
+            <button>Add to Cart</button>
+        </div>
     </div>
-    <div class="product">
-      <img src="product2.jpg" alt="Product 2">
-      <h3>Product 2</h3>
-      <p>Description of Product 2</p>
-      <p>$29.99</p>
-      <button>Add to Cart</button>
-    </div>
-    <!-- More products can be added similarly -->
-  </section>
-</main>
-
-<footer>
-  <p>&copy; 2024 Self-Selling Website. All rights reserved.</p>
-</footer>
-
+    <footer>
+        &copy; 2024 Gelo's GPU Store. All rights reserved.
+    </footer>
 </body>
 </html>
